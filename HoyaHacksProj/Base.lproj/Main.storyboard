@@ -357,10 +357,14 @@
                     </view>
                     <connections>
                         <outlet property="email" destination="tee-yB-lQp" id="nP6-Z1-8he"/>
+                        <outlet property="email1" destination="H0H-tq-T9H" id="wiB-RE-9Wx"/>
+                        <outlet property="email2" destination="a5d-y7-NFh" id="uJo-Lw-koH"/>
                         <outlet property="name" destination="QDl-EJ-iPX" id="326-fB-4WC"/>
                         <outlet property="password" destination="Kiq-DG-t8s" id="nw0-qs-8JS"/>
                         <outlet property="passwordConfirm" destination="DeQ-xP-6zC" id="TGV-pI-ocL"/>
                         <outlet property="phone" destination="e0s-oM-NbB" id="tvD-CH-RtY"/>
+                        <outlet property="phone1" destination="Utn-6z-Ydn" id="VFM-Rs-Vkl"/>
+                        <outlet property="phone2" destination="oPC-zR-SYc" id="8qd-2z-JmP"/>
                         <segue destination="Qd3-gs-1SQ" kind="showDetail" identifier="signupToHome" id="t7M-7d-GN2"/>
                     </connections>
                 </viewController>
@@ -826,6 +830,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <state key="normal" title="PRESS HERE!"/>
+                                <connections>
+                                    <action selector="IceButtonPressed:" destination="Pa4-z9-mGF" eventType="touchUpInside" id="ghO-uB-iHY"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emergency Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nud-9K-LCa">
                                 <rect key="frame" x="123" y="59" width="129" height="21"/>
@@ -903,9 +910,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="FvZ-Y2-oLf"/>
-        <segue reference="xch-zH-Igp"/>
-        <segue reference="Kbo-7F-5Z2"/>
-        <segue reference="f0e-CU-PtR"/>
+        <segue reference="d08-KY-LeV"/>
+        <segue reference="t7M-7d-GN2"/>
+        <segue reference="55p-CF-l0H"/>
+        <segue reference="hwJ-uh-daG"/>
     </inferredMetricsTieBreakers>
 </document>

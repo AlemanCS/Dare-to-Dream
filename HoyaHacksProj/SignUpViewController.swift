@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import FirebaseDatabase
 
 
 class SignUpScreenViewController: UIViewController {
@@ -16,8 +17,12 @@ class SignUpScreenViewController: UIViewController {
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var passwordConfirm: UITextField!
+    @IBOutlet weak var phone1: UITextField!
+    @IBOutlet weak var email1: UITextField!
+    @IBOutlet weak var phone2: UITextField!
+    @IBOutlet weak var email2: UITextField!
     
-    
+    var ref: DatabaseReference!
     
     
     @IBAction func BackButtonPressed(_ sender: Any) {
@@ -36,6 +41,15 @@ class SignUpScreenViewController: UIViewController {
         else{
             Auth.auth().createUser(withEmail: email.text!, password: password.text!){ (user, error) in
                 if error == nil {
+                    guard let uid = Auth.auth().currentUser?.uid else { return }
+                    self.ref.child("users/\(uid)")
+                    self.ref.child("users").child(uid).child("phone").setValue(self.phone.text!)
+                    self.ref.child("users").child(uid).child("email").setValue(self.email.text!)
+                    self.ref.child("contacts/\(uid)")
+                    self.ref.child("contacts").child(uid).child("phone1").setValue(self.phone1.text!)
+                    self.ref.child("contacts").child(uid).child("email1").setValue(self.email1.text!)
+                    self.ref.child("contacts").child(uid).child("email2").setValue(self.email2.text!)
+                    self.ref.child("contacts").child(uid).child("phone2").setValue(self.phone2.text!)
                     self.performSegue(withIdentifier: "signupToHome", sender: self)
                 }
                 else{
@@ -53,6 +67,7 @@ class SignUpScreenViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        ref = Database.database().reference()
     }
     
     
