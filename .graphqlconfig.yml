@@ -1,0 +1,16 @@
+projects:
+  hoyaapp2:
+    schemaPath: graphql/schema.json
+    includes:
+      - graphql/**/*.graphql
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: swift
+        generatedFileName: API.swift
+        docsFilePath: graphql
+        graphQLApiId: qutps66htnel7otkfc4iu54eju
+      endpoints:
+        prod: >-
+          https://eqcxmntyi5f2nd5yhz3zrvsmvu.appsync-api.us-east-1.amazonaws.com/graphql

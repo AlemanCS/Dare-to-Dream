@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2525F1D2205D224002CB1E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2525F1C2205D224002CB1E8 /* AppDelegate.swift */; };
+		E2525F1F2205D224002CB1E8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2525F1E2205D224002CB1E8 /* HomeViewController.swift */; };
+		E2525F222205D225002CB1E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2525F202205D224002CB1E8 /* Main.storyboard */; };
+		E2525F242205D228002CB1E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2525F232205D228002CB1E8 /* Assets.xcassets */; };
+		E2525F272205D228002CB1E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2525F252205D228002CB1E8 /* LaunchScreen.storyboard */; };
+		E2525F322205D228002CB1E8 /* HoyaHacksProjTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2525F312205D228002CB1E8 /* HoyaHacksProjTests.swift */; };
+		E2525F3D2205D228002CB1E8 /* HoyaHacksProjUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2525F3C2205D228002CB1E8 /* HoyaHacksProjUITests.swift */; };
+		E2525F4B2205D7B9002CB1E8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2525F4A2205D7B9002CB1E8 /* SignUpViewController.swift */; };
+		E2525F4D2206035A002CB1E8 /* ICEButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2525F4C2206035A002CB1E8 /* ICEButtonViewController.swift */; };
+		E2525F5122062D9C002CB1E8 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2525F5022062D9B002CB1E8 /* MainMenuViewController.swift */; };
+		E2525F5322063F67002CB1E8 /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2525F5222063F67002CB1E8 /* FirstScreenViewController.swift */; };
+		E2525F55220657D0002CB1E8 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2525F54220657D0002CB1E8 /* LogInViewController.swift */; };
+		E2525F572206580B002CB1E8 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2525F562206580B002CB1E8 /* AboutUsViewController.swift */; };
+		E2525F59220683C8002CB1E8 /* EducationalResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2525F58220683C8002CB1E8 /* EducationalResources.swift */; };
+		E2525F5B220683E0002CB1E8 /* LegalServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2525F5A220683E0002CB1E8 /* LegalServices.swift */; };
+		E2525F5D220683FD002CB1E8 /* Healthcare Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2525F5C220683FD002CB1E8 /* Healthcare Information.swift */; };
+		E2525F5F22068417002CB1E8 /* KnowYourRights.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2525F5E22068417002CB1E8 /* KnowYourRights.swift */; };
+		E2525F612206842D002CB1E8 /* Community Forum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2525F602206842D002CB1E8 /* Community Forum.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2525F2E2205D228002CB1E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2525F112205D224002CB1E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2525F182205D224002CB1E8;
+			remoteInfo = HoyaHacksProj;
+		};
+		E2525F392205D228002CB1E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2525F112205D224002CB1E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2525F182205D224002CB1E8;
+			remoteInfo = HoyaHacksProj;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2525F192205D224002CB1E8 /* HoyaHacksProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoyaHacksProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2525F1C2205D224002CB1E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2525F1E2205D224002CB1E8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E2525F212205D224002CB1E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2525F232205D228002CB1E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2525F262205D228002CB1E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2525F282205D228002CB1E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2525F2D2205D228002CB1E8 /* HoyaHacksProjTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoyaHacksProjTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2525F312205D228002CB1E8 /* HoyaHacksProjTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoyaHacksProjTests.swift; sourceTree = "<group>"; };
+		E2525F332205D228002CB1E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2525F382205D228002CB1E8 /* HoyaHacksProjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoyaHacksProjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2525F3C2205D228002CB1E8 /* HoyaHacksProjUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoyaHacksProjUITests.swift; sourceTree = "<group>"; };
+		E2525F3E2205D228002CB1E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2525F4A2205D7B9002CB1E8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		E2525F4C2206035A002CB1E8 /* ICEButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICEButtonViewController.swift; sourceTree = "<group>"; };
+		E2525F5022062D9B002CB1E8 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		E2525F5222063F67002CB1E8 /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
+		E2525F54220657D0002CB1E8 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		E2525F562206580B002CB1E8 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		E2525F58220683C8002CB1E8 /* EducationalResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationalResources.swift; sourceTree = "<group>"; };
+		E2525F5A220683E0002CB1E8 /* LegalServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalServices.swift; sourceTree = "<group>"; };
+		E2525F5C220683FD002CB1E8 /* Healthcare Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Healthcare Information.swift"; sourceTree = "<group>"; };
+		E2525F5E22068417002CB1E8 /* KnowYourRights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowYourRights.swift; sourceTree = "<group>"; };
+		E2525F602206842D002CB1E8 /* Community Forum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Community Forum.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2525F162205D224002CB1E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2525F2A2205D228002CB1E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2525F352205D228002CB1E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2525F102205D224002CB1E8 = {
+			isa = PBXGroup;
+			children = (
+				E2525F1B2205D224002CB1E8 /* HoyaHacksProj */,
+				E2525F302205D228002CB1E8 /* HoyaHacksProjTests */,
+				E2525F3B2205D228002CB1E8 /* HoyaHacksProjUITests */,
+				E2525F1A2205D224002CB1E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2525F1A2205D224002CB1E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2525F192205D224002CB1E8 /* HoyaHacksProj.app */,
+				E2525F2D2205D228002CB1E8 /* HoyaHacksProjTests.xctest */,
+				E2525F382205D228002CB1E8 /* HoyaHacksProjUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2525F1B2205D224002CB1E8 /* HoyaHacksProj */ = {
+			isa = PBXGroup;
+			children = (
+				E2525F1C2205D224002CB1E8 /* AppDelegate.swift */,
+				E2525F5222063F67002CB1E8 /* FirstScreenViewController.swift */,
+				E2525F4C2206035A002CB1E8 /* ICEButtonViewController.swift */,
+				E2525F1E2205D224002CB1E8 /* HomeViewController.swift */,
+				E2525F562206580B002CB1E8 /* AboutUsViewController.swift */,
+				E2525F4A2205D7B9002CB1E8 /* SignUpViewController.swift */,
+				E2525F54220657D0002CB1E8 /* LogInViewController.swift */,
+				E2525F5022062D9B002CB1E8 /* MainMenuViewController.swift */,
+				E2525F58220683C8002CB1E8 /* EducationalResources.swift */,
+				E2525F5A220683E0002CB1E8 /* LegalServices.swift */,
+				E2525F5C220683FD002CB1E8 /* Healthcare Information.swift */,
+				E2525F5E22068417002CB1E8 /* KnowYourRights.swift */,
+				E2525F602206842D002CB1E8 /* Community Forum.swift */,
+				E2525F282205D228002CB1E8 /* Info.plist */,
+				E2525F202205D224002CB1E8 /* Main.storyboard */,
+				E2525F232205D228002CB1E8 /* Assets.xcassets */,
+				E2525F252205D228002CB1E8 /* LaunchScreen.storyboard */,
+			);
+			path = HoyaHacksProj;
+			sourceTree = "<group>";
+		};
+		E2525F302205D228002CB1E8 /* HoyaHacksProjTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2525F312205D228002CB1E8 /* HoyaHacksProjTests.swift */,
+				E2525F332205D228002CB1E8 /* Info.plist */,
+			);
+			path = HoyaHacksProjTests;
+			sourceTree = "<group>";
+		};
+		E2525F3B2205D228002CB1E8 /* HoyaHacksProjUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2525F3C2205D228002CB1E8 /* HoyaHacksProjUITests.swift */,
+				E2525F3E2205D228002CB1E8 /* Info.plist */,
+			);
+			path = HoyaHacksProjUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2525F182205D224002CB1E8 /* HoyaHacksProj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2525F412205D228002CB1E8 /* Build configuration list for PBXNativeTarget "HoyaHacksProj" */;
+			buildPhases = (
+				8DCB8F123BA61BBF36EDB3F6 /* [CP] Check Pods Manifest.lock */,
+				E2525F152205D224002CB1E8 /* Sources */,
+				E2525F162205D224002CB1E8 /* Frameworks */,
+				E2525F172205D224002CB1E8 /* Resources */,
+				0E46B0F224C21E3A294D495C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoyaHacksProj;
+			productName = HoyaHacksProj;
+			productReference = E2525F192205D224002CB1E8 /* HoyaHacksProj.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2525F2C2205D228002CB1E8 /* HoyaHacksProjTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2525F442205D228002CB1E8 /* Build configuration list for PBXNativeTarget "HoyaHacksProjTests" */;
+			buildPhases = (
+				2A211E6150287A128EA0B5E4 /* [CP] Check Pods Manifest.lock */,
+				E2525F292205D228002CB1E8 /* Sources */,
+				E2525F2A2205D228002CB1E8 /* Frameworks */,
+				E2525F2B2205D228002CB1E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2525F2F2205D228002CB1E8 /* PBXTargetDependency */,
+			);
+			name = HoyaHacksProjTests;
+			productName = HoyaHacksProjTests;
+			productReference = E2525F2D2205D228002CB1E8 /* HoyaHacksProjTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2525F372205D228002CB1E8 /* HoyaHacksProjUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2525F472205D228002CB1E8 /* Build configuration list for PBXNativeTarget "HoyaHacksProjUITests" */;
+			buildPhases = (
+				96D98D8BBCA0F485E954CBAA /* [CP] Check Pods Manifest.lock */,
+				E2525F342205D228002CB1E8 /* Sources */,
+				E2525F352205D228002CB1E8 /* Frameworks */,
+				E2525F362205D228002CB1E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2525F3A2205D228002CB1E8 /* PBXTargetDependency */,
+			);
+			name = HoyaHacksProjUITests;
+			productName = HoyaHacksProjUITests;
+			productReference = E2525F382205D228002CB1E8 /* HoyaHacksProjUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2525F112205D224002CB1E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ximena Perez";
+				TargetAttributes = {
+					E2525F182205D224002CB1E8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E2525F2C2205D228002CB1E8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E2525F182205D224002CB1E8;
+					};
+					E2525F372205D228002CB1E8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E2525F182205D224002CB1E8;
+					};
+				};
+			};
+			buildConfigurationList = E2525F142205D224002CB1E8 /* Build configuration list for PBXProject "HoyaHacksProj" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2525F102205D224002CB1E8;
+			productRefGroup = E2525F1A2205D224002CB1E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2525F182205D224002CB1E8 /* HoyaHacksProj */,
+				E2525F2C2205D228002CB1E8 /* HoyaHacksProjTests */,
+				E2525F372205D228002CB1E8 /* HoyaHacksProjUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2525F172205D224002CB1E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2525F272205D228002CB1E8 /* LaunchScreen.storyboard in Resources */,
+				E2525F242205D228002CB1E8 /* Assets.xcassets in Resources */,
+				E2525F222205D225002CB1E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2525F2B2205D228002CB1E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2525F362205D228002CB1E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E46B0F224C21E3A294D495C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HoyaHacksProj/Pods-HoyaHacksProj-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAPIGateway/AWSAPIGateway.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAppSync/AWSAppSync.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAPIGateway.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAppSync.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoyaHacksProj/Pods-HoyaHacksProj-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A211E6150287A128EA0B5E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HoyaHacksProjTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DCB8F123BA61BBF36EDB3F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HoyaHacksProj-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96D98D8BBCA0F485E954CBAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HoyaHacksProjUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2525F152205D224002CB1E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2525F5D220683FD002CB1E8 /* Healthcare Information.swift in Sources */,
+				E2525F572206580B002CB1E8 /* AboutUsViewController.swift in Sources */,
+				E2525F1F2205D224002CB1E8 /* HomeViewController.swift in Sources */,
+				E2525F5322063F67002CB1E8 /* FirstScreenViewController.swift in Sources */,
+				E2525F5F22068417002CB1E8 /* KnowYourRights.swift in Sources */,
+				E2525F59220683C8002CB1E8 /* EducationalResources.swift in Sources */,
+				E2525F55220657D0002CB1E8 /* LogInViewController.swift in Sources */,
+				E2525F4B2205D7B9002CB1E8 /* SignUpViewController.swift in Sources */,
+				E2525F1D2205D224002CB1E8 /* AppDelegate.swift in Sources */,
+				E2525F5B220683E0002CB1E8 /* LegalServices.swift in Sources */,
+				E2525F5122062D9C002CB1E8 /* MainMenuViewController.swift in Sources */,
+				E2525F612206842D002CB1E8 /* Community Forum.swift in Sources */,
+				E2525F4D2206035A002CB1E8 /* ICEButtonViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2525F292205D228002CB1E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2525F322205D228002CB1E8 /* HoyaHacksProjTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2525F342205D228002CB1E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2525F3D2205D228002CB1E8 /* HoyaHacksProjUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2525F2F2205D228002CB1E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2525F182205D224002CB1E8 /* HoyaHacksProj */;
+			targetProxy = E2525F2E2205D228002CB1E8 /* PBXContainerItemProxy */;
+		};
+		E2525F3A2205D228002CB1E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2525F182205D224002CB1E8 /* HoyaHacksProj */;
+			targetProxy = E2525F392205D228002CB1E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2525F202205D224002CB1E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2525F212205D224002CB1E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2525F252205D228002CB1E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2525F262205D228002CB1E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2525F3F2205D228002CB1E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2525F402205D228002CB1E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2525F422205D228002CB1E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HoyaHacksProj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HHT.HoyaHacksProj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "generated-src/Bridging_Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2525F432205D228002CB1E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HoyaHacksProj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HHT.HoyaHacksProj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "generated-src/Bridging_Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2525F452205D228002CB1E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HoyaHacksProjTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HHT.HoyaHacksProjTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoyaHacksProj.app/HoyaHacksProj";
+			};
+			name = Debug;
+		};
+		E2525F462205D228002CB1E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HoyaHacksProjTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HHT.HoyaHacksProjTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoyaHacksProj.app/HoyaHacksProj";
+			};
+			name = Release;
+		};
+		E2525F482205D228002CB1E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HoyaHacksProjUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HHT.HoyaHacksProjUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HoyaHacksProj;
+			};
+			name = Debug;
+		};
+		E2525F492205D228002CB1E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HoyaHacksProjUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HHT.HoyaHacksProjUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HoyaHacksProj;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2525F142205D224002CB1E8 /* Build configuration list for PBXProject "HoyaHacksProj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2525F3F2205D228002CB1E8 /* Debug */,
+				E2525F402205D228002CB1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2525F412205D228002CB1E8 /* Build configuration list for PBXNativeTarget "HoyaHacksProj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2525F422205D228002CB1E8 /* Debug */,
+				E2525F432205D228002CB1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2525F442205D228002CB1E8 /* Build configuration list for PBXNativeTarget "HoyaHacksProjTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2525F452205D228002CB1E8 /* Debug */,
+				E2525F462205D228002CB1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2525F472205D228002CB1E8 /* Build configuration list for PBXNativeTarget "HoyaHacksProjUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2525F482205D228002CB1E8 /* Debug */,
+				E2525F492205D228002CB1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2525F112205D224002CB1E8 /* Project object */;
+}
