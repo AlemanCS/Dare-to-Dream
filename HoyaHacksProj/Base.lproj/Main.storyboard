@@ -31,7 +31,7 @@
                                 <state key="normal" title="Go"/>
                                 <connections>
                                     <action selector="GoButtonPressed:" destination="CAZ-c2-CUB" eventType="touchUpInside" id="mcH-5c-Zkm"/>
-                                    <segue destination="Qd3-gs-1SQ" kind="showDetail" id="k5l-7A-nL7"/>
+                                    <segue destination="Qd3-gs-1SQ" kind="showDetail" identifier="loginToHome" id="k5l-7A-nL7"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tpe-Zb-BLt">
@@ -75,6 +75,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="sdP-Oe-B9p"/>
                     </view>
+                    <connections>
+                        <outlet property="email" destination="74v-o3-U4d" id="WfX-UW-UJh"/>
+                        <outlet property="password" destination="iB0-HT-hvl" id="Q6J-Xc-qGC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kh0-Do-0hF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -301,7 +305,7 @@
                                 <state key="normal" title="Save Info"/>
                                 <connections>
                                     <action selector="SaveInfoPressed:" destination="y0N-ht-alP" eventType="touchUpInside" id="Ott-Sc-6Vz"/>
-                                    <segue destination="Qd3-gs-1SQ" kind="showDetail" id="3Rg-JM-OnN"/>
+                                    <segue destination="Qd3-gs-1SQ" kind="showDetail" identifier="signupToHome" id="3Rg-JM-OnN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W8u-Ve-zmp">
@@ -341,8 +345,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7JN-UO-yiO">
-                                <rect key="frame" x="158" y="258" width="198" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DeQ-xP-6zC">
+                                <rect key="frame" x="162" y="257" width="176" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -352,6 +356,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="zHb-Ea-QLb"/>
                     </view>
+                    <connections>
+                        <outlet property="email" destination="tee-yB-lQp" id="nP6-Z1-8he"/>
+                        <outlet property="name" destination="QDl-EJ-iPX" id="326-fB-4WC"/>
+                        <outlet property="password" destination="Kiq-DG-t8s" id="nw0-qs-8JS"/>
+                        <outlet property="passwordConfirm" destination="DeQ-xP-6zC" id="TGV-pI-ocL"/>
+                        <outlet property="phone" destination="e0s-oM-NbB" id="tvD-CH-RtY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j2O-9h-jYR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -728,8 +739,8 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="FvZ-Y2-oLf"/>
-        <segue reference="k5l-7A-nL7"/>
+        <segue reference="3Rg-JM-OnN"/>
         <segue reference="Zaq-5z-1iF"/>
-        <segue reference="4wc-ty-UCs"/>
+        <segue reference="hwJ-uh-daG"/>
     </inferredMetricsTieBreakers>
 </document>
