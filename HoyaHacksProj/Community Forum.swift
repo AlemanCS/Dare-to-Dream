@@ -18,4 +18,13 @@ class CommunityForumController: UIViewController {
     }
     
     
+    @IBAction func LoadFirstWebsite(_ sender: Any) {
+        let url = URL(string: "https://dreamact.info/forum/")
+        UIApplication.shared.canOpenURL(url!)
+        UIApplication.shared.open(url!, options: [:],
+                                  completionHandler:nil)
+    }
+    
+    
+    
 }
