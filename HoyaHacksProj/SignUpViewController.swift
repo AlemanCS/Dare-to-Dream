@@ -17,7 +17,6 @@ class SignUpScreenViewController: UIViewController {
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var passwordConfirm: UITextField!
     
-    var ref: FIRDatabaseReference!
     
     
     
@@ -54,7 +53,6 @@ class SignUpScreenViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-      let roofRef = Database.database().reference()
     }
     
     
