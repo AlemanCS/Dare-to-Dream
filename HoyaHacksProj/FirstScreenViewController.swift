@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class FirstScreenViewController: UIViewController {
     
@@ -19,8 +20,16 @@ class FirstScreenViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
         print("First Page has loaded.")
+    }
+    
+    override func viewDidAppear(_ animated: Bool){
+        super.viewDidAppear(animated)
+        if Auth.auth().currentUser != nil {
+            self.performSegue(withIdentifier: "alreadyLoggedIn", sender: nil)
+        }
     }
     
     

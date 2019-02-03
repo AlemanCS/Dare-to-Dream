@@ -31,7 +31,6 @@
                                 <state key="normal" title="Go"/>
                                 <connections>
                                     <action selector="GoButtonPressed:" destination="CAZ-c2-CUB" eventType="touchUpInside" id="mcH-5c-Zkm"/>
-                                    <segue destination="Qd3-gs-1SQ" kind="showDetail" identifier="loginToHome" id="k5l-7A-nL7"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tpe-Zb-BLt">
@@ -78,6 +77,7 @@
                     <connections>
                         <outlet property="email" destination="74v-o3-U4d" id="WfX-UW-UJh"/>
                         <outlet property="password" destination="iB0-HT-hvl" id="Q6J-Xc-qGC"/>
+                        <segue destination="Qd3-gs-1SQ" kind="showDetail" identifier="loginToHome" id="c1x-L7-JB1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kh0-Do-0hF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -305,7 +305,6 @@
                                 <state key="normal" title="Save Info"/>
                                 <connections>
                                     <action selector="SaveInfoPressed:" destination="y0N-ht-alP" eventType="touchUpInside" id="Ott-Sc-6Vz"/>
-                                    <segue destination="Qd3-gs-1SQ" kind="showDetail" identifier="signupToHome" id="3Rg-JM-OnN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W8u-Ve-zmp">
@@ -362,6 +361,7 @@
                         <outlet property="password" destination="Kiq-DG-t8s" id="nw0-qs-8JS"/>
                         <outlet property="passwordConfirm" destination="DeQ-xP-6zC" id="TGV-pI-ocL"/>
                         <outlet property="phone" destination="e0s-oM-NbB" id="tvD-CH-RtY"/>
+                        <segue destination="Qd3-gs-1SQ" kind="showDetail" identifier="signupToHome" id="t7M-7d-GN2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j2O-9h-jYR" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -412,10 +412,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="HDp-Id-UCh"/>
                     </view>
+                    <connections>
+                        <segue destination="Qd3-gs-1SQ" kind="showDetail" identifier="alreadyLoggedIn" id="K1r-rf-iiQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pqp-MT-5Ia" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1207.2" y="-7.6461769115442282"/>
+            <point key="canvasLocation" x="-1201" y="9"/>
         </scene>
         <!--MainMenuViewController-->
         <scene sceneID="xMb-iG-gXX">
@@ -485,7 +488,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Logout"/>
                                 <connections>
-                                    <segue destination="fah-k4-zae" kind="showDetail" id="Zaq-5z-1iF"/>
+                                    <action selector="logOutAction:" destination="Qd3-gs-1SQ" eventType="touchUpInside" id="hsm-Sj-yNO"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -739,8 +742,8 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="FvZ-Y2-oLf"/>
-        <segue reference="3Rg-JM-OnN"/>
-        <segue reference="Zaq-5z-1iF"/>
+        <segue reference="t7M-7d-GN2"/>
+        <segue reference="Kbo-7F-5Z2"/>
         <segue reference="hwJ-uh-daG"/>
     </inferredMetricsTieBreakers>
 </document>

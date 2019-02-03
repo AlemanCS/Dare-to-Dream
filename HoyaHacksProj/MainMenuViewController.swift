@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class MainMenuViewController: UIViewController {
     
@@ -28,10 +29,20 @@ class MainMenuViewController: UIViewController {
     @IBAction func EmergencyButtonPressed(_ sender: Any) {
         print("Emergency button pressed.")
     }
-    @IBAction func SignUpPressed(_ sender: Any) {
-        print("SignUp pressed.")
-        self.performSegue(withIdentifier: "SignUpViewSegue", sender: self)
+    @IBAction func logOutAction(_ sender: Any) {
+        do {
+            try Auth.auth().signOut()
+        }
+        catch let signOutError as NSError {
+            print ("Error signing out: %@", signOutError)
+        }
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let initial = storyboard.instantiateInitialViewController()
+        UIApplication.shared.keyWindow?.rootViewController = initial
+        
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
