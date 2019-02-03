@@ -17,5 +17,18 @@ class LegalServicesController: UIViewController {
         print("Legal Services has loaded.")
     }
     
+    @IBAction func loadFirstWebsite(_ sender: Any) {
+        let url = URL(string: "http://www.immigrantlegalservices.org/")
+        UIApplication.shared.canOpenURL(url!)
+        UIApplication.shared.open(url!, options: [:],
+                                  completionHandler:nil)
+    }
     
+    @IBAction func loadSecondWebsite(_ sender: Any) {
+        let url = URL(string: "https://www.immigrationlawhelp.org/")
+        UIApplication.shared.canOpenURL(url!)
+        UIApplication.shared.open(url!, options: [:],
+                                  completionHandler:nil)
+    }
 }
+

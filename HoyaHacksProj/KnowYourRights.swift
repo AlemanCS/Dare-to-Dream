@@ -16,6 +16,33 @@ class KnowYourRightsController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         print("Know Your Rights has loaded.")
     }
+   
+    @IBAction func loadFirstWebsite(_ sender: Any) {
+        let url = URL(string: "https://www.aclu.org/know-your-rights/")
+        UIApplication.shared.canOpenURL(url!)
+        UIApplication.shared.open(url!, options: [:],
+                                  completionHandler:nil)
+    }
     
+    @IBAction func loadSecondWebsite(_ sender: Any) {
+        let url = URL(string: "https://www.nlg.org/know-your-rights/")
+        UIApplication.shared.canOpenURL(url!)
+        UIApplication.shared.open(url!, options: [:],
+                                  completionHandler:nil)
+    }
+
+    @IBAction func loadThirdWebsite(_ sender: Any) {
+        let url = URL(string: "http://iamerica.org/know-your-rights")
+        UIApplication.shared.canOpenURL(url!)
+        UIApplication.shared.open(url!, options: [:],
+                                  completionHandler:nil)
+    }
     
+    @IBAction func loadFourthWebsite(_ sender: Any) {
+        let url = URL(string: "https://www.nilc.org/get-involved/community-education-resources/know-your-rights/")
+        UIApplication.shared.canOpenURL(url!)
+        UIApplication.shared.open(url!, options: [:],
+                                  completionHandler:nil)
+    }
 }
+
