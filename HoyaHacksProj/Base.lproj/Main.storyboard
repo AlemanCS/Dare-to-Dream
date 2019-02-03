@@ -684,6 +684,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <state key="normal" title="PRESS HERE!"/>
+                                <connections>
+                                    <action selector="IceButtonPressed:" destination="Pa4-z9-mGF" eventType="touchUpInside" id="ghO-uB-iHY"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emergency Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nud-9K-LCa">
                                 <rect key="frame" x="123" y="59" width="129" height="21"/>
@@ -747,7 +750,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="d08-KY-LeV"/>
         <segue reference="t7M-7d-GN2"/>
-        <segue reference="Kbo-7F-5Z2"/>
+        <segue reference="55p-CF-l0H"/>
         <segue reference="hwJ-uh-daG"/>
     </inferredMetricsTieBreakers>
 </document>
